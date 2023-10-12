@@ -23,9 +23,9 @@ public class BasePlus_Commissioned_Employees extends Commission_Employees{
 		
 		System.out.println("Total Earning = "+((this.getCommissionRate()*this.getGrossSales())+this.baseSalary));
 		
-		System.out.println("Rewarded salary = "+(this.baseSalary+(this.baseSalary*0.1)));
+		System.out.println("Total Earning after Reward = "+((this.getCommissionRate()*this.getGrossSales())+(this.baseSalary+(this.baseSalary*0.1))));
 	}
-
+	
 	public int getBaseSalary() {
 		return this.baseSalary;
 	}
